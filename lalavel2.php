@@ -8,9 +8,9 @@ $array_month =["1月","2月","3月","4月","5月","6月","7月","8月","9月","1
 echo $array_month[7];
 //課題３
 $hello = "Hello,";
-$hello.= $name = "Ryohei Hosoda";
-$hello.= $world = "'s World";
-echo $hello;
+$name = "Ryohei Hosoda";
+$world = "'s World";
+echo $hello.$name.$world;
 //課題４
 $tech_boost = "tech";
 $tech_boost.= "boost";
